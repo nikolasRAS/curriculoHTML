@@ -44,15 +44,16 @@ body {
 }
 
 .resume .resume_left .resume_profile img {
-  max-width: 300px;
-  max-height: 300px;
-  width: auto;
-  height: auto;
+  width: 225px;
+  height: 300px;
   border-radius: 25%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .resume .resume_left .resume_content {
@@ -206,4 +207,20 @@ body {
   width: 2px;
   height: 115px;
   background: #000000;
+}
+
+.btn {
+  background-color: #000000;
+  border: none;
+  color: #fff;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover {
+  background-color: #2c2c2c;
 }
